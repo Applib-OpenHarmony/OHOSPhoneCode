@@ -51,14 +51,11 @@ Button($r("app.string.continue"), { type: ButtonType.Normal, stateEffect: true }
               .textAlign(TextAlign.Start)
               .margin({ bottom: "10vp" })
           }
-
           Divider().vertical(false).strokeWidth("2vp").color("Black").lineCap(LineCapStyle.Round)
           List({ space: "2vp", initialIndex: 0 }) {
             ForEach(this.arr, (item) => {
               ListItem() {
                 Row() {
-
-
                   Flex() {
                     Image($rawfile('country_flag_' + item.co.trim() + '.png'))
                       .width("22vp")
@@ -72,12 +69,10 @@ Button($r("app.string.continue"), { type: ButtonType.Normal, stateEffect: true }
                   }
                   .width('10%')
                   .padding({left: 10})
-
-
                   Text(item.co)
                     .width('30%')
                     .height("50vp")
-                    .padding({left: 30})
+                    .padding({left: "30vp"})
                     .fontSize("20fp")
                     .textAlign(TextAlign.Start)
                     .borderRadius("10vp")
@@ -85,12 +80,10 @@ Button($r("app.string.continue"), { type: ButtonType.Normal, stateEffect: true }
                       this.phone_code = item.ph
                       this.onPanelItemSelection(item.ph, item.co)
                     })
-
-
                   Text("+" + item.ph)
                     .width('60%')
                     .height("50vp")
-                    .padding({right: 30})
+                    .padding({right: "30vp"})
                     .fontSize("20fp")
                     .textAlign(TextAlign.End)
                     .borderRadius("10vp")
@@ -98,8 +91,6 @@ Button($r("app.string.continue"), { type: ButtonType.Normal, stateEffect: true }
                       this.phone_code = item.ph
                       this.onPanelItemSelection(item.ph, item.co)
                     })
-
-
                 }
               }.editable(true)
             })
