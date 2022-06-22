@@ -5,7 +5,7 @@
 ### Library Release Date - 
 
 ### Library Overview
-  Phone Code library provides access to a developer to add this into their own harmony os project, where user will get option to enter his/her nobile number. The main feature includes a list of phone codes of all the coutries from where usercan choose the coutry he/she belongs to and the Mobile code of that coutry will automatically added to the phonenumber field.
+  Phone Code library provides access to a developer to add this into their own project, where user will get option to enter his/her mobile number. The main feature includes a list of phone codes of all the countries from where user can choose the country he/she belongs to and the Mobile code of that country will automatically added to the phone number field.
 
 ### How to use
 1. Click on the ArrowDown button to open up the country list panel
@@ -38,7 +38,7 @@ Button($r("app.string.continue"), { type: ButtonType.Normal, stateEffect: true }
 ![Image](./Images/Button.png)
 
 ## Library Feature 2: Panel
- Upon clicking the dropdown button a panel will pop up from the buttom of the screen which displays the name, phone code and the cotry flag icon of the coutries. User can select his/her country and the phone code of that coutry will automatically adde up to the required field.
+ Upon clicking the dropdown button a panel will pop up from the bottom of the screen which displays the name, phone code and the country flag icon of the countries. User can select his/her country and the phone code of that country will automatically added up to the required field.
 
 ```    
       Panel(this.show) { // Show code list
@@ -113,13 +113,13 @@ Button($r("app.string.continue"), { type: ButtonType.Normal, stateEffect: true }
 ---
 
 ### Advance features that can be implemented into the library - 
-* Voice search can be integrated so that user dont have to pick the coutry name everytime from the panel, instead he/she can do a voice search and the data will be filled up
-* Application can seek permission to use the user's current location and the phonecode of that coutry in which the location exists can be filled up automatically.
+* Voice search can be integrated so that user don't have to pick the country name each time from the panel, instead he/she can do a voice search and the data will be filled up
+* Application can seek permission to use the user's current location and the phone code of that country in which the location exists can be filled up automatically.
 
 ### Open Source License
 Licensed under [Apache-2.0 license](/LICENSE)
 
-### Coclusion
+### Conclusion
 * It is a very useful Library which can save your lots of time by importing it directly into your App
-* It is easy to use and very user friendly and it's UI is very much specific
-* Specific fields acn be customized according to the need of the project
+* It is easy to use and very user friendly and its UI is very much specific
+* Specific fields can be customized according to the need of the project
