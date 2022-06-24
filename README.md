@@ -18,7 +18,7 @@
 
 ### Library UI overview 
 
-![alt-text-1](./Images/ss%201.png) ![alt-text-2](./Images/ss%202.png)
+![alt-text-1](./Images/ss_1.png) ![alt-text-2](./Images/ss_2.png)
 
 ---
 
