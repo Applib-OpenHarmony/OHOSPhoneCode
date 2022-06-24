@@ -63,7 +63,7 @@ export struct PhoneCodePanel {
   aboutToAppear() {
     var data = JSON.stringify(countries);
     this.arr = JSON.parse(data);
-    console.info("JSON arr data: " + this.arr[0].co + " " + this.arr[0].ph + " " + this.arr[0].na);
+//    console.info("JSON arr data: " + this.arr[0].co + " " + this.arr[0].ph + " " + this.arr[0].na);
   }
 
   build() {
@@ -128,9 +128,9 @@ export struct PhoneCodePanel {
       .mode(PanelMode.Half)
       .dragBar(true)
       .halfHeight("1500vp")
-      .onChange((value: any) => {
-        console.info(`width:${value.width},height:${value.height},mode:${value.mode}`)
-      })
+//      .onChange((value: any) => {
+//        console.info(`width:${value.width},height:${value.height},mode:${value.mode}`)}
+      )
     }
   }
 }
