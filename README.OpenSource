@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "PhoneCode",
+        "License": "Apache-2.0 License",
+        "License File": " LICENSE ",
+        "Version Number": "",
+        "Owner" : "jakulov"
+        "Upstream URL": "https://github.com/jakulov/phonecode",
+        "Description": "A library that allows user to pick his/her country's phone code"
+    }
+]
